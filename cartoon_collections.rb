@@ -17,5 +17,5 @@ end
 end
 
 def find_valid_calls(planeteer_calls)
-planeteer_calls.find
+planeteer_calls.find {
 end

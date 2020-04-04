@@ -1,13 +1,14 @@
 def square_array(array)
   array.map do |element|
     element * element
+    # or 
   end
 end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
     call.capitalize + '!'
-    # or planeteer_calls.map { |call| call.capitalize + '!'}
+    # or planeteer_calls.map { |call| call.capitalize + '!' }
   end
 end
 

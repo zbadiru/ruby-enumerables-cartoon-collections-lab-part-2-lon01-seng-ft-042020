@@ -1,7 +1,7 @@
 def square_array(array)
   array.map do |element|
     element * element
-    # or array.map 
+    # or array.map { |element| 
   end
 end
 

@@ -12,6 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
 planeteer_calls.any? do |call|
+  call.length 
 end
 
 def find_valid_calls(planeteer_calls)
